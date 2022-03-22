@@ -2,12 +2,9 @@ name: DataViz
 channels:
   - conda-forge
 dependencies:
+  - python 3.7
   - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
   - pandas
-  - partd
-  - bokeh
-  - dask
+  - matplotlib
+  - bqplot
+  - ipywidgets
